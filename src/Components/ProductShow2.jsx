@@ -22,7 +22,7 @@ const ProductFeatures = () => {
       >
         {/* Image */}
         <img
-          src="src/assets/headset/show-2.png"
+          src="/images/headset/show-2.png"
           alt="Charging Case"
           className="w-[180px] h-[180px] md:w-[200px] md:h-[200px] object-cover rounded-lg"
         />
@@ -68,7 +68,7 @@ const ProductFeatures = () => {
       >
         {/* Image */}
         <img
-          src="src/assets/headset/show-3.png"
+          src="/images/headset/show-3.png"
           alt="Earbuds Comfort"
           className="w-[180px] h-[180px] md:w-[200px] md:h-[200px] object-cover rounded-lg"
         />

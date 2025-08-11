@@ -34,7 +34,7 @@ const ProductShow = () => {
         className="lg:pl-32 flex-shrink-0"
       >
         <img
-          src="src/assets/headset/show-1.png"
+          src="/images/headset/show-1.png"
           alt="Vortex Aero Pro"
           className="w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] object-cover"
         />

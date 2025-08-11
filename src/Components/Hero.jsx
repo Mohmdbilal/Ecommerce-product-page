@@ -3,11 +3,11 @@ import Navbar from "./Navbar"; // Import Navbar here
 
 const Hero = () => {
   const images = [
-    "src/assets/headset/View-1.png",
-    "src/assets/headset/View-2.png",
-    "src/assets/headset/View-3.png",
-    "src/assets/headset/View-4.png",
-    "src/assets/headset/View-5.png",
+   "/images/headset/View-1.png",
+  "/images/headset/View-2.png",
+  "/images/headset/View-3.png",
+  "/images/headset/View-4.png",
+  "/images/headset/View-5.png",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -104,7 +104,7 @@ const Hero = () => {
           <div className="mt-6">
             <p className="text-md font-semibold mb-2">Color: Black</p>
             <img
-              src="src/assets/headset/View-1.png"
+              src="/images/headset/View-1.png"
               alt="Black color"
               className="h-[50px] w-auto rounded"
             />
@@ -119,7 +119,7 @@ const Hero = () => {
             <div className="grid grid-cols-2 gap-2 gap-y-3">
               <div className="flex flex-col items-center gap-2">
                 <img
-                  src="src/assets/features/Vector-1.png"
+                  src="/images/features/Vector-1.png"
                   alt="Feature 1"
                   className="w-[50px] h-[50px] rounded object-cover"
                 />
@@ -128,7 +128,7 @@ const Hero = () => {
 
               <div className="flex flex-col items-center gap-3">
                 <img
-                  src="src/assets/features/Vector-2.png"
+                  src="/images/features/Vector-2.png"
                   alt="Feature 2"
                   className="w-[50px] h-[50px] rounded object-cover"
                 />
@@ -137,7 +137,7 @@ const Hero = () => {
 
               <div className="flex flex-col items-center gap-3">
                 <img
-                  src="src/assets/features/Vector-3.png"
+                  src="/images/features/Vector-3.png"
                   alt="Feature 3"
                   className="w-[50px] h-[50px] rounded object-cover"
                 />
@@ -146,7 +146,7 @@ const Hero = () => {
 
               <div className="flex flex-col items-center gap-3">
                 <img
-                  src="src/assets/features/Vector-4.png"
+                  src="/images/features/Vector-4.png"
                   alt="Feature 4"
                   className="w-[50px] h-[50px] rounded object-cover"
                 />
