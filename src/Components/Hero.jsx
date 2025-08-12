@@ -49,7 +49,7 @@ const Hero = () => {
               <img
                 key={index}
                 onClick={() => handleThumbnailClick(index)}
-                className={`w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] object-cover cursor-pointer border rounded-2xl ${
+                className={`w-[55px] h-[55px] lg:w-[100px] lg:h-[100px] object-cover cursor-pointer border rounded-2xl ${
                   index === currentIndex ? "border-gray-600" : "border-gray-300"
                 }`}
                 src={img}

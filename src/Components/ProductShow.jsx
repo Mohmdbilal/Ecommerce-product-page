@@ -65,8 +65,8 @@ const ProductShow = () => {
         {/* Second Text */}
         <p
           className="
-            text-base sm:text-xl font-normal text-[#404040]
-            mb-4 sm:mb-8
+            text-base sm:text-xl  text-[#404040]
+            mb-4 sm:mb-8 font-bold
           "
         >
           Vortex Aero Pro delivers powerful audio with clarity and style
