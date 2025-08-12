@@ -3,11 +3,11 @@ import Navbar from "./Navbar"; // Import Navbar here
 
 const Hero = () => {
   const images = [
-   "/images/headset/View-1.png",
-  "/images/headset/View-2.png",
-  "/images/headset/View-3.png",
-  "/images/headset/View-4.png",
-  "/images/headset/View-5.png",
+    "/images/headset/View-1.png",
+    "/images/headset/View-2.png",
+    "/images/headset/View-3.png",
+    "/images/headset/View-4.png",
+    "/images/headset/View-5.png",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -70,10 +70,12 @@ const Hero = () => {
 
         {/* Right side */}
         <div className="w-full sm:w-[600px] sm:h-[650px] bg-[#2E2E2E] text-white rounded-2xl p-6 sm:p-10 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
-
-          <h2 className="text-xl sm:text-2xl font-bold mb-2">Vortex Aero Pro</h2>
+          <h2 className="text-xl sm:text-2xl font-bold mb-2">
+            Vortex Aero Pro
+          </h2>
           <p className="text-sm mb-6 text-[#a5a5a5]">
-            Clear highs and deep bass, Wireless Adaptive Hybrid ANC, up to 80 hours playback
+            Clear highs and deep bass, Wireless Adaptive Hybrid ANC, up to 80
+            hours playback
           </p>
           <p className="text-2xl sm:text-3xl font-semibold mb-4 pt-3">₹2,499</p>
 
@@ -122,36 +124,44 @@ const Hero = () => {
                 <img
                   src="/images/features/Vector-1.png"
                   alt="Feature 1"
-                  className="w-[50px] h-[50px] rounded object-cover"
+                  className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded object-cover"
                 />
-                <p className="text-sm text-[#a5a5a5]">High-Fidelity Acoustics</p>
+                <p className="text-xs sm:text-sm text-[#a5a5a5]">
+                  High-Fidelity Acoustics
+                </p>
               </div>
 
               <div className="flex flex-col items-center gap-3">
                 <img
                   src="/images/features/Vector-2.png"
                   alt="Feature 2"
-                  className="w-[50px] h-[50px] rounded object-cover"
+                  className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded object-cover"
                 />
-                <p className="text-sm text-[#a5a5a5]">Spatial Audio</p>
+                <p className="text-xs sm:text-sm text-[#a5a5a5]">
+                  Spatial Audio
+                </p>
               </div>
 
               <div className="flex flex-col items-center gap-3">
                 <img
                   src="/images/features/Vector-3.png"
                   alt="Feature 3"
-                  className="w-[50px] h-[50px] rounded object-cover"
+                  className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded object-cover"
                 />
-                <p className="text-sm text-[#a5a5a5]">80 Hours Playtime</p>
+                <p className="text-xs sm:text-sm text-[#a5a5a5]">
+                  80 Hours Playtime
+                </p>
               </div>
 
               <div className="flex flex-col items-center gap-3">
                 <img
                   src="/images/features/Vector-4.png"
                   alt="Feature 4"
-                  className="w-[50px] h-[50px] rounded object-cover"
+                  className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded object-cover"
                 />
-                <p className="text-sm text-[#a5a5a5]">Adaptive Hybrid ANC</p>
+                <p className="text-xs sm:text-sm text-[#a5a5a5]">
+                  Adaptive Hybrid ANC
+                </p>
               </div>
             </div>
           </div>
