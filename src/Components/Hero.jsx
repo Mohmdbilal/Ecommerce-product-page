@@ -69,7 +69,8 @@ const Hero = () => {
         </div>
 
         {/* Right side */}
-        <div className="w-full sm:w-[600px] sm:h-[650px] bg-[#2E2E2E] text-white rounded-2xl p-6 sm:p-10">
+        <div className="w-full sm:w-[600px] sm:h-[650px] bg-[#2E2E2E] text-white rounded-2xl p-6 sm:p-10 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+
           <h2 className="text-xl sm:text-2xl font-bold mb-2">Vortex Aero Pro</h2>
           <p className="text-sm mb-6 text-[#a5a5a5]">
             Clear highs and deep bass, Wireless Adaptive Hybrid ANC, up to 80 hours playback
